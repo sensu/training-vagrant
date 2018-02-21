@@ -1,11 +1,13 @@
-Sensu Development Environment Vagrant
+# Sensu Development Environment Vagrant
+
 This repository contains Vagrantfile and some supporting scripts for configuring a Sensu development environment.
 
 ## Prerequisites
 ### Software
 This repository was developed and tested with the following:
-	* Vagrant 2.0.1
-	* VirtualBox 5.2
+
+* Vagrant 2.0.1
+* VirtualBox 5.2
 
 The Vagrantfile enclosed here defines multiple virtual machines. Starting all of them at once will require in excess of 6GB of system memory.
 
