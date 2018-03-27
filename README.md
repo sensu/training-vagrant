@@ -4,15 +4,16 @@ This repository contains Vagrantfile and some supporting scripts for configuring
 
 ## Prerequisites
 ### Software
-This repository was developed and tested with the following:
+This repository was developed and tested on Mac OS X with the following:
 
-* Vagrant 2.0.1
-* VirtualBox 5.2
+* [Vagrant 2.0.1](https://www.vagrantup.com/downloads.html)
+* [VirtualBox 5.2](https://www.virtualbox.org/wiki/Downloads)
 
+### System Resources
 The Vagrantfile enclosed here defines multiple virtual machines. Starting all of them at once will require in excess of 6GB of system memory.
 
 ### Vagrant Boxes
-The vagrant boxes used by this project are publicly available [Centos 7.4][1] and [Windows 2016][2] VM images. There's nothing about these images that is specific to this workshop, so you can use a different box image if you already have one on hand. 
+The vagrant boxes used by this project are publicly available [Centos 7.4][1] and [Windows 2016][2] virtual machine images. There's nothing about these images that is specific to this workshop, so you can use a different box image if you already have one on hand. 
 
 ### Installing boxes
 
