@@ -139,7 +139,7 @@ echo '{
       "handlers": ["graphite_tcp"]
     }
   }
-}' | sudo tee /etc/sensu/conf.d/checks/check_disk.json
+}' | sudo tee /etc/sensu/conf.d/checks/nagios_check_disk.json
 
 echo '{
   "checks": {
@@ -152,7 +152,7 @@ echo '{
       "mutator": "only_check_output"
     }
   }
-}' | sudo tee /etc/sensu/conf.d/checks/nagios_check_disk.json
+}' | sudo tee /etc/sensu/conf.d/checks/check_disk.json
 
 # Filter - 
 echo '{
