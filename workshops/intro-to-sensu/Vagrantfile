@@ -4,6 +4,7 @@ Vagrant.configure("2") do |config|
   config.vm.network "private_network", type: "dhcp"
   config.vm.provision "shell", path: "../../scripts/sensu-and-graphite.sh"
   config.vm.provider "virtualbox" do |vb|
-    vb.memory = 1024
+    vb.memory = 2048
+    vb.cpus = 2
   end
 end
